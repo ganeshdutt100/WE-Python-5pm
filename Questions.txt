@@ -1,0 +1,21 @@
+Question 1  - Calculate a ticket price based on age. Children under 12 pay $8, seniors 65 and older pay $10, and everyone else pays $15.
+
+Question2 -  Assign dashboard permissions based on a user's role. Admins get full access, editors can modify content, and viewers can only read.
+
+Question 3  - Traffic Light Logic
+Determine a driver's action based on the color of a traffic light. Include a fallback else to catch invalid inputs.
+
+Question 4 -  FizzBuzz (The Classic Interview Question)
+For a given number, print "Fizz" if it is divisible by 3, "Buzz" if divisible by 5, and "FizzBuzz" if divisible by both 3 and 5. Otherwise, print the number.
+
+Question5  - Shipping Cost Calculator
+Calculate delivery charges based on the weight of a package. Under 5kg costs $5, between 5kg and 20kg costs $10, and anything over 20kg costs $20.
+
+Question6 - BMI (Body Mass Index) Category
+Print a health category based on a person's BMI number.
+
+Question7 - Shopping Discount System
+Give a customer a discount based on how much they spend. $1000 or more gets a 20% discount, $500 or more gets 10%, and under $500 gets 0%
+
+Question8- Speeding Ticket Checker
+Check a driver's speed to determine their fine. Speed limit is 60.
