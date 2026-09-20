@@ -50,3 +50,43 @@ Scenario: A person is at an ATM. First, the ATM checks if their ATM card is vali
 Variables to create: card_valid (boolean), balance (number), and withdraw_amount (number).
 
 Task: Write the nested if-else to process the withdrawal.
+
+
+Question5 :  Build a "Smart Calculator"
+Your Task:
+Write a Python program that can add, subtract, multiply, and divide two numbers. However, your calculator must include a "Smart Guard" to prevent the program from crashing if someone tries to divide by zero!
+
+Set Up Your Variables:
+Start your code by creating these three variables at the top:
+num1 = 10
+num2 = 0
+operator = "/"
+
+Step 1: The Basic Calculator (Using if and elif)
+Write the logic for addition, subtraction, and multiplication.
+
+If the operator is "+", add the two numbers together and print the result.
+
+If the operator is "-", subtract num2 from num1 and print the result.
+
+If the operator is "*", multiply the numbers and print the result.
+
+(Hint: Use if for the first condition, and elif for the next two).
+
+Step 2: Catching Typos (Using else)
+What if someone types the wrong symbol to calculate?
+
+At the very end of your code, add a block that catches any symbol other than +, -, *, or /.
+
+If they enter a wrong symbol (like @ or ?), print: "Invalid Operator! Please choose a correct symbol."
+
+(Hint: Use an else statement at the very end of your conditions).
+
+Step 3: The Division Guard (Using Nested if)
+Now, add one more elif block to handle division ("/").
+
+The Twist: Inside this elif block, you need to create a guard (a nested if-else).
+
+The guard must check: If num2 is exactly 0, print "Error: You cannot divide a number by zero!"
+
+If num2 is NOT 0, then it is safe. Divide num1 by num2 and print the answer.
