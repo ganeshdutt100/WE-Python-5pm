@@ -19,3 +19,27 @@ Give a customer a discount based on how much they spend. $1000 or more gets a 20
 
 Question8- Speeding Ticket Checker
 Check a driver's speed to determine their fine. Speed limit is 60.
+
+nested Questions  
+Questions 1 :   School Attendance & Exam
+Scenario: A student wants to give their final exam. First, check if their attendance is 75% or higher. If it is, then check if they have paid their exam fees.
+
+Variables to create: attendance_percentage (number) and fees_paid (boolean True/False).
+
+Task: Write a nested if-else to print if they can sit for the exam.
+
+
+Question 2 - Online Shopping Login
+Scenario: A user is trying to buy something online. First, check if they are logged into their account. If they are, check if their shopping cart has any items in it (items > 0).
+
+Variables to create: is_logged_in (boolean) and cart_items (number).
+
+Task: Write the logic to either tell them to log in, add items, or proceed to checkout.
+
+
+Question3 -  Rollercoaster Ride
+Scenario: A kid wants to ride a rollercoaster. First, they must be at least 12 years old. If they are old enough, they must also be taller than 120 cm.
+
+Variables to create: age (number) and height_cm (number).
+
+Task: Print whether they are allowed on the ride based on these two rules.
