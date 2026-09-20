@@ -90,3 +90,12 @@ The Twist: Inside this elif block, you need to create a guard (a nested if-else)
 The guard must check: If num2 is exactly 0, print "Error: You cannot divide a number by zero!"
 
 If num2 is NOT 0, then it is safe. Divide num1 by num2 and print the answer.
+
+
+--------------------------------------------------
+Question1  = Quiz
+The game asks a question. If you give the wrong answer (else), you lose immediately. If you give the correct answer (if), you unlock the next level and the game asks you Question 2 (nested if).
+
+
+Question2  = The Monster Fight
+A monster appears! You have 3 weapons: Sword, Bow, or Magic (if-elif). Each does different damage. But there is a catch: to use Magic, the game must first check if you have enough energy/mana (nested if).
