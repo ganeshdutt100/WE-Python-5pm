@@ -33,8 +33,22 @@
 # if is_logged_in == True:
 #     print("Welcome Back ")
 #     if cart_items > 0:
-#       print()
+#       print("proceeding to checkout with your items")
 #     else:
-#        print()
+#        print("your cart is empty")
 # else:
-#     print()    
+#     print("Please login first ")    
+
+
+year  = 1600
+
+if  year  % 4  ==  0:
+    if year % 100  == 0:
+        if year % 400 == 0:
+           print(year , "is a Leap year ")
+        else :
+            print( year  ,  "is not a leap year ")    
+    else:
+        print(year , "is a leap year ")
+else:
+    print( year  ,  "is not a leap year ")    

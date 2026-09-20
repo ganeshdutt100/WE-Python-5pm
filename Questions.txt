@@ -43,3 +43,10 @@ Scenario: A kid wants to ride a rollercoaster. First, they must be at least 12 y
 Variables to create: age (number) and height_cm (number).
 
 Task: Print whether they are allowed on the ride based on these two rules.
+
+Question4  Bank ATM Withdrawal
+Scenario: A person is at an ATM. First, the ATM checks if their ATM card is valid (not expired). If the card is valid, it checks if their account balance is greater than or equal to the amount they want to withdraw.
+
+Variables to create: card_valid (boolean), balance (number), and withdraw_amount (number).
+
+Task: Write the nested if-else to process the withdrawal.
