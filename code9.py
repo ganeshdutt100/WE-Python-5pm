@@ -7,15 +7,20 @@ print("Menu :  Coffee($50) , Tea($10) , Cold Coffee($30) , Cold Drink($40) , Mil
 choice  =  input("what would you like to order? : ")
 
 if choice == "Coffee":
-    print("You have ordered Coffee. The price is $50")
+   price  = 50
 elif choice == "Tea":
-    print("You have ordered Tea. The price is $10")
+   price = 10
 elif choice == "Cold Coffee":
-    print("You have ordered Cold Coffee. The price is $30")
+   price = 30
 elif choice == "Cold Drink":
-    print("You have ordered Cold Drink. The price is $40")
+   price = 40
 elif choice == "Milkshake":
-    print("You have ordered Milkshake. The price is $12")
+   price = 12
 else:
     print("Sorry, we don't have that item on the menu.")    
+    price = 0
 
+if price > 0 :
+    quantity  =  int(input("How many would you like to order? : "))
+    total_price  =  price * quantity
+    print("Your total bill is: $" + str(total_price))
