@@ -1,4 +1,9 @@
-num1  =  [1,2,3,4,5]
+# num1  =  [1,2,1,3,1,4,5,1]
+
+# print(num1.count(1))
+
+# num1.index(2)
+# print(num1.index(2))
 # num1.append(10)
 # print(num1)
 # num2 = [6,7,8,9,10]
