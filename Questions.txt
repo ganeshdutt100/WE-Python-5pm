@@ -99,3 +99,35 @@ The game asks a question. If you give the wrong answer (else), you lose immediat
 
 Question2  = The Monster Fight
 A monster appears! You have 3 weapons: Sword, Bow, or Magic (if-elif). Each does different damage. But there is a catch: to use Magic, the game must first check if you have enough energy/mana (nested if).
+
+---------------------------loop questions   --------------------------
+Question1 Prime Number Checker
+Task: Check if a given number is a prime number (divisible only by 1 and itself) using a break statement.
+
+
+
+Question2 Star Pattern Builder
+Task: Create a right-angled triangle pattern using stars (*) for a given number of rows.
+ 
+Question3  : Reverse a String
+Task: Reverse a given word without using any built-in string reversing functions or slicing shortcuts.
+"PYTHON"  =  "NOHTYP 
+
+Question4 . Fibonacci Series Generator
+Task: Print the first 10 numbers of the Fibonacci series (0, 1, 1, 2, 3, 5, 8...), where each number is the sum of the two preceding ones.
+
+Question5 : Sum of Squares
+Task: Calculate the total sum of the squares of all numbers from 1 to 5 (i.e., 1^2 + 2^2 + 3^2 + 4^2 + 5^2).
+-------------------------------loop Basic Questions--------------- 
+Question1 The Even Number Jumper (Using Step)
+Task: Print all even numbers from 2 to 20 by using a "jump" or step value of 2 in the range() function.
+
+Question2 The Countdown (Negative Step)
+Task: Print a reverse countdown from 10 down to 1.
+range(1 , 11 , -1) 
+
+Question3 The Auto-Table (Multiplication)
+Task: Print the multiplication table for the number 3 using a loop.
+
+Question4 The Piggy Bank (Basic Summation)
+Task: Add up all the numbers from 1 to 5 and print the final total.
